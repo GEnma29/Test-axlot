@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.ContainerProduct{
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+.ContainerAll{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+.Descriptiom{
+    margin-top: 5px ;
+}
+.ContainerElement{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 40%;
+}
+.ContainerText{
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+}
+.ContainerSize{
+    margin-top: 15px;
+}
+.ContainerColors{
+    margin-top: 5px;
+    height: 55px;
+    width: 140px;
+}
+.ColorItem{
+    margin: 10px;
+
+}
+.ColorText{
+    display: flex;
+}
+
+.ContainerColorsSVG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ContainerSizes{
+    display: flex;
+    margin-top: 10px;
+    width: 240px;
+    justify-content: space-around;
+}
+.ContainerPrice{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 160px;
+    justify-content: space-around;
+}
+.ItemPrice1{
+    text-decoration-line: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #CCCCCC;
+
+
+}
+.ContainerButton{
+    display: flex;
+    margin-top: 20px;
+    height: 42px;
+    width: 320px;
+    justify-content: space-around;
+
+}
+.Button1{
+    width: 135px;
+    background: #88C9F6 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    color: #FFFFFF;
+    text-align: center;
+    font: normal normal normal 14px/19px Noto Sans;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.ButtonActive{
+    width: 135px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #5A90BC;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 14px/19px Noto Sans;
+    letter-spacing: 0px;
+    color: #5A90BC;
+}
+.ProductImg{
+    margin-top: 5%;
+}
+.ItemPrice2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #666666;
+}
+.ContainerVistas{
+    margin-top: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.TitleProduct{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
